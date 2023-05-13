@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect
 import plotly.express as px
-from database import vehicle
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 from werkzeug.utils import secure_filename
